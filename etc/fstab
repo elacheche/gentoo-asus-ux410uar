@@ -1,0 +1,8 @@
+UUID="0b0064b3-f862-44c0-acac-a6d5c74a6a43"	/boot	ext4	noatime	0 2
+UUID="7c05b904-603d-439e-85ab-0be61c5c4177"	/	ext4	rw,relatime,data=ordered      0 1
+#defaults,noatime,errors=remount-ro,discard	0 1
+# rw,relatime,data=ordered	0 1
+UUID="98681f74-db46-4559-be41-e5e69a1d215d"	/home   ext4	rw,relatime,data=ordered	0 2
+UUID="87122b0c-b308-48ca-8b8e-4761ebd60535"	none	swap	defaults	0 0
+tmpfs /tmp tmpfs rw,nosuid,noatime,nodev,size=512M,mode=1777 0 0
+tmpfs /var/tmp/portage/ tmpfs uid=portage,gid=portage,nosuid,noatime,nodev,size=16G,mode=775 0 0
